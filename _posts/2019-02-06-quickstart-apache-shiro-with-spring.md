@@ -14,8 +14,7 @@ tags:
 - Authentication
 meta: {}
 author:
-  login: ankitkatiyar91
-  email: ankitkatiyar67@gmail.com
+  email: ankit@bytefold.com
   display_name: Ankit Katiyar
   first_name: Ankit
   last_name: Katiyar
@@ -25,31 +24,31 @@ excerpt: 'Apache Shiro is an Authentication Authorization framework with support
   around your application. This is Quick Demo of the Apche Shiro with Spring framework
   in java. '
 ---
-<p><!-- wp:paragraph --></p>
+
 <p>Apache Shiro is an Authentication Authorization framework with support for cryptography and session management. You can quickly create a layer of security around your application.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
+<p></p>
+
 <p>I used this framework with couple of project and now it's my first go for authentication and authorization mechanism around any application, even over Spring Security. A lot of may like Spring Security because it comes with your spring and lot of community support and documentations.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
+<p></p>
+
 <p>You need to create a realm that provides all the logic of Authenticating a User and Authorizing it for any access.  Below is a simple realm class. (Not doing any verification, just for demonstration)</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
+<p></p>
+
 <p><strong>Shiro&nbsp;Dependency</strong></p>
-<p><!-- /wp:paragraph --></p>
+<p></p>
 <p><!-- wp:enlighter/codeblock {"language":"xml"} --></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="xml" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">&lt;!-- shiro dependency -->
+<pre class="highlight" data-enlighter-language="xml" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">&lt;!-- shiro dependency -->
 		&lt;dependency>
 			&lt;groupId>org.apache.shiro&lt;/groupId>
 			&lt;artifactId>shiro-all&lt;/artifactId>
 			&lt;version>1.1.0&lt;/version>
 		&lt;/dependency></pre>
-<p><!-- /wp:enlighter/codeblock --></p>
-<p><!-- wp:paragraph --></p>
+
+
 <p><strong>Realm</strong></p>
-<p><!-- /wp:paragraph --></p>
+<p></p>
 <p><!-- wp:enlighter/codeblock {"language":"java"} --></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="java" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">import org.apache.shiro.authc.AuthenticationException;
+<pre class="highlight" data-enlighter-language="java" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.authc.SimpleAuthenticationInfo;
@@ -97,12 +96,12 @@ public class MyRealm extends AuthorizingRealm {
 	}
 
 }</pre>
-<p><!-- /wp:enlighter/codeblock --></p>
-<p><!-- wp:paragraph --></p>
+
+
 <p><strong>Spring Configuration for Shiro</strong></p>
-<p><!-- /wp:paragraph --></p>
+<p></p>
 <p><!-- wp:enlighter/codeblock {"language":"xml"} --></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="xml" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">&lt;?xml version="1.0" encoding="UTF-8"?>
+<pre class="highlight" data-enlighter-language="xml" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
@@ -133,37 +132,30 @@ public class MyRealm extends AuthorizingRealm {
 &lt;bean id="mySessionListener" class="com.listner.MySessionListener" >&lt;/bean>
 &lt;/beans>
 </pre>
-<p><!-- /wp:enlighter/codeblock --></p>
-<p><!-- wp:paragraph --></p>
 <p><strong>Demo</strong></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:enlighter/codeblock {"language":"java"} --></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="java" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">public class ShiroTest {
-	
+<pre class="highlight" data-enlighter-language="java" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">
+public class ShiroTest {
 	public static void main(String[] args) {
-		
 		AbstractApplicationContext context=new ClassPathXmlApplicationContext("spring.xml");
 		context.registerShutdownHook();
-		
-		
 		org.apache.shiro.subject.Subject subject=SecurityUtils.getSubject();
 		AuthenticationToken token=new UsernamePasswordToken("username", "password");
 		System.out.println("Login a user--");
  		subject.login(token);
- 		System.out.println("User logged in---
-"); subject.logout(); System.out.println("User logged out"); } }
+ 		System.out.println("User logged in---"); subject.logout(); System.out.println("User logged out"); 
+    } 
+}
+</pre>
 
-<!-- /wp:enlighter/codeblock -->
 
-<!-- wp:paragraph -->
 
 A fully functional demo available on GitHub [https://github.com/ankitkatiyar91/java-framework-examples/tree/master/spring-examples/SpringShiro](https://github.com/ankitkatiyar91/java-framework-examples/tree/master/spring-examples/SpringShiro)
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+
+
 
 Check CMS application that usages Shiro for security [https://github.com/ankitkatiyar91/cms-java](https://github.com/ankitkatiyar91/cms-java)
 
-<!-- /wp:paragraph -->
+
 

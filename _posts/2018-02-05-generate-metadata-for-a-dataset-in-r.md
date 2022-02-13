@@ -18,8 +18,7 @@ meta:
   _yoast_wpseo_focuskw: easy way to generate metadata for your dataset
   _yoast_wpseo_linkdex: '37'
 author:
-  login: ankitkatiyar91
-  email: ankitkatiyar67@gmail.com
+  email: ankit@bytefold.com
   display_name: Ankit Katiyar
   first_name: Ankit
   last_name: Katiyar

@@ -11,7 +11,7 @@ categories:
 - Java
 tags: []
 meta:
-  blogger_blog: technohelpy.blogspot.com
+  blogger_blog: bytefold.com
   blogger_author: Ankit Katiyar
   blogger_permalink: "/2012/11/convert-amount-in-words.html"
   blogger_internal: "/feeds/2635046121517897773/posts/default/4530341503015215463"
@@ -19,8 +19,7 @@ meta:
   _yoast_wpseo_content_score: '30'
   _yoast_wpseo_primary_category: '56'
 author:
-  login: ankitkatiyar91
-  email: ankitkatiyar67@gmail.com
+  email: ankit@bytefold.com
   display_name: Ankit Katiyar
   first_name: Ankit
   last_name: Katiyar

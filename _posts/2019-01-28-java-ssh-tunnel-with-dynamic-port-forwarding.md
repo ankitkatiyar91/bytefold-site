@@ -14,8 +14,7 @@ tags:
 - Java Tunnel
 meta: {}
 author:
-  login: ankitkatiyar91
-  email: ankitkatiyar67@gmail.com
+  email: ankit@bytefold.com
   display_name: Ankit Katiyar
   first_name: Ankit
   last_name: Katiyar
@@ -24,54 +23,54 @@ excerpt: Create a putty like dynamic port forward in Java. Unable to access URL 
   you network? want to bypass them over a bastion server? A running demo using JSCH
   and Apache MINA to use port forwarding.
 ---
-<!-- wp:paragraph -->
+
 
 If you have ever worked with deployment teams, you have done SSH through some clients like putty to your server and check whether a particular service reachable from there or verify something else.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+
+
 
 I stuck with a problem where my production team has blocked access to production URLs of individual nodes. Now I cannot check if a particular node in my cluster is working or not. After a lot of efforts, they gave us a **_bastion server_&nbsp;** (a server machine that is allowed with special rights, [more](https://en.wikipedia.org/wiki/Bastion_host)) that&nbsp;allows&nbsp;us access to these nodes.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+
+
 
 Basically, my application URL is _www.myurl.com_ that runs 10 nodes on 8080 port. Then I am allowed to access _www.myurl.com_ URL over internet/VPN but not allowed to check individual nodes like _www.node1.myurl.com:8080_ etc. Now I have to use the new bastion server and log in through SSH then use dynamic port forward on that server. After that use SOCKS proxy of my browser to access these URLs.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+
+
 
 Although, I am able to access these URLs from my browser but what about my JAVA utility that was doing all the verification without me doing all the manual work? So juggled around couple of libraries to see if I can still use that utitily and do all this.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+
+
 
 There are couple of libraries but I explored two of them
 
-<!-- /wp:paragraph -->
 
-<!-- wp:list -->
+
+
 
 - JSCH (Doesn't support dynamic port forward as of now)
 - Apache MINA 
 
-<!-- /wp:list -->
+
 
 <!-- wp:heading {"level":3} -->
 
 ### JSCH Example
 
-<!-- /wp:heading -->
 
-<!-- wp:paragraph -->
+
+
 
 **Dependencies**
 
-<!-- /wp:paragraph -->
+
 
 <!-- wp:enlighter/codeblock {"language":"xml"} -->
 
@@ -83,13 +82,13 @@ There are couple of libraries but I explored two of them
 </dependency>
 ```
 
-<!-- /wp:enlighter/codeblock -->
 
-<!-- wp:paragraph -->
+
+
 
 **Example**
 
-<!-- /wp:paragraph -->
+
 
 <!-- wp:enlighter/codeblock {"language":"java"} -->
 
@@ -188,19 +187,19 @@ public class TunnelJSCH {
 }
 ```
 
-<!-- /wp:enlighter/codeblock -->
+
 
 <!-- wp:heading {"level":3} -->
 
 ### Apache MINA
 
-<!-- /wp:heading -->
 
-<!-- wp:paragraph -->
+
+
 
 **Dependencies**
 
-<!-- /wp:paragraph -->
+
 
 <!-- wp:enlighter/codeblock {"language":"xml"} -->
 
@@ -232,13 +231,13 @@ public class TunnelJSCH {
 		</dependency>
 ```
 
-<!-- /wp:enlighter/codeblock -->
 
-<!-- wp:paragraph -->
+
+
 
 **Example**
 
-<!-- /wp:paragraph -->
+
 
 <!-- wp:enlighter/codeblock {"language":"java"} -->
 
@@ -376,17 +375,17 @@ public class AmazonTest {
 }
 ```
 
-<!-- /wp:enlighter/codeblock -->
 
-<!-- wp:paragraph -->
+
+
 
 View complete project at [GitHub&nbsp;](https://github.com/ankitkatiyar91/java-framework-examples/tree/master/java-tunneling)
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+
+
 
 [https://github.com/ankitkatiyar91/java-framework-examples/tree/master/java-tunneling](https://github.com/ankitkatiyar91/java-framework-examples/tree/master/java-tunneling)
 
-<!-- /wp:paragraph -->
+
 

@@ -18,8 +18,7 @@ meta:
   _yoast_wpseo_primary_category: '56'
   _yoast_wpseo_focuskw_text_input: constructor should not throw exception
 author:
-  login: ankitkatiyar91
-  email: ankitkatiyar67@gmail.com
+  email: ankit@bytefold.com
   display_name: Ankit Katiyar
   first_name: Ankit
   last_name: Katiyar

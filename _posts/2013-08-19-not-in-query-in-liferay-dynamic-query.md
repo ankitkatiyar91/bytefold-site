@@ -11,14 +11,13 @@ categories:
 - Miscellaneous
 tags: []
 meta:
-  blogger_blog: technohelpy.blogspot.com
+  blogger_blog: bytefold.com
   blogger_author: Ankit Katiyar
   blogger_permalink: "/2013/08/not-in-query-in-liferay-dynamic-query.html"
   blogger_internal: "/feeds/2635046121517897773/posts/default/3569513229157446587"
   _edit_last: '1'
 author:
-  login: ankitkatiyar91
-  email: ankitkatiyar67@gmail.com
+  email: ankit@bytefold.com
   display_name: Ankit Katiyar
   first_name: Ankit
   last_name: Katiyar

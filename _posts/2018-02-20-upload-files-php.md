@@ -18,8 +18,7 @@ meta:
   _yoast_wpseo_focuskw: upload multiple files in php
   _yoast_wpseo_linkdex: '35'
 author:
-  login: ankitkatiyar91
-  email: ankitkatiyar67@gmail.com
+  email: ankit@bytefold.com
   display_name: Ankit Katiyar
   first_name: Ankit
   last_name: Katiyar

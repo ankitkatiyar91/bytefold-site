@@ -11,14 +11,13 @@ categories:
 - Miscellaneous
 tags: []
 meta:
-  blogger_blog: technohelpy.blogspot.com
+  blogger_blog: bytefold.com
   blogger_author: Ankit Katiyar
   blogger_permalink: "/2011/12/android-plug-in-for-eclipse-ide.html"
   blogger_internal: "/feeds/2635046121517897773/posts/default/4085073310720296537"
   _thumbnail_id: '353'
 author:
-  login: ankitkatiyar91
-  email: ankitkatiyar67@gmail.com
+  email: ankit@bytefold.com
   display_name: Ankit Katiyar
   first_name: Ankit
   last_name: Katiyar

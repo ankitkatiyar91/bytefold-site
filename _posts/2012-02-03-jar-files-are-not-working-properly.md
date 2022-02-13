@@ -11,7 +11,7 @@ categories:
 - Java
 tags: []
 meta:
-  blogger_blog: technohelpy.blogspot.com
+  blogger_blog: bytefold.com
   blogger_author: Ankit Katiyar
   blogger_permalink: "/2012/02/jar-files-are-not-working-properly.html"
   blogger_internal: "/feeds/2635046121517897773/posts/default/7780975830568607258"
@@ -19,8 +19,7 @@ meta:
   _edit_last: '1'
   _yoast_wpseo_primary_category: '56'
 author:
-  login: ankitkatiyar91
-  email: ankitkatiyar67@gmail.com
+  email: ankit@bytefold.com
   display_name: Ankit Katiyar
   first_name: Ankit
   last_name: Katiyar

@@ -20,8 +20,7 @@ meta:
   _yoast_wpseo_primary_category: '61'
   _edit_last: '1'
 author:
-  login: ankitkatiyar91
-  email: ankitkatiyar67@gmail.com
+  email: ankit@bytefold.com
   display_name: Ankit Katiyar
   first_name: Ankit
   last_name: Katiyar

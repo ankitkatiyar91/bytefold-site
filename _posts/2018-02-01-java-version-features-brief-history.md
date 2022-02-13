@@ -19,8 +19,7 @@ meta:
   _yoast_wpseo_linkdex: '58'
   _yoast_wpseo_post_image_cache: a:0:{}
 author:
-  login: ankitkatiyar91
-  email: ankitkatiyar67@gmail.com
+  email: ankit@bytefold.com
   display_name: Ankit Katiyar
   first_name: Ankit
   last_name: Katiyar
