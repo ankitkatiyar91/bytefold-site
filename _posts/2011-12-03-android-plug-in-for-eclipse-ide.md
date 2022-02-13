@@ -40,5 +40,5 @@ permalink: "/android-plug-in-for-eclipse-ide/"
 **_[http://developer.android.com](http://developer.android.com/)&nbsp;&nbsp;_**  
 _**[http://code.google.com/android/](http://code.google.com/android/)**_
 
-[![]({{ site.baseurl }}/assets/images/2011/12/android-this-week-300x200.jpeg)](http://bytefold.com/wp-content/uploads/2011/12/android-this-week.jpeg)[<object contentid="c939791cd4a87da8" height="266" width="320"></object>](http://1.bp.blogspot.com/-tttgvtWqgKc/TtpMN5UagFI/AAAAAAAAAFQ/PpJ9RHtvxWQ/s1600/android_logo.gif)
+![]({{ site.baseurl }}/assets/images/2011/12/android-this-week-300x200.jpeg)
 

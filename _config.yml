@@ -31,9 +31,10 @@ kramdown:
   input: GFM
   syntax_highlighter_opts:
     default_lang: java
-#    css_class: 'syntax'
-    formatter: Rouge::Formatters::HTML.new
-theme: jekyll-theme-minimal
+    css_class: 'syntax'
+    formatter: Rouge::Formatters::HTMLLegacy
+    line_numbers: false
+theme: minima
 plugins:
   - jekyll-feed
 
@@ -48,4 +49,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
+sass:
+  sass_dir: _sass
+  style: compressed # possible values: nested expanded compact compressed
