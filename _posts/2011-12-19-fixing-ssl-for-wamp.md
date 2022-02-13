@@ -15,11 +15,7 @@ meta:
   blogger_author: Ankit Katiyar
   blogger_permalink: "/2011/12/fixing-ssl-for-wamp.html"
   blogger_internal: "/feeds/2635046121517897773/posts/default/776750940913000981"
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/fixing-ssl-for-wamp/"
 ---
 ERROR:  

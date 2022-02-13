@@ -17,17 +17,13 @@ meta:
   blogger_internal: "/feeds/2635046121517897773/posts/default/2640024370943280853"
   _edit_last: '1'
   _wp_old_slug: the-security-manager
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/security-manager-java/"
 ---
 A security manager is an object that is used to check whether the operation we want to perform is not&nbsp;violating the security policy of the operating system.  
 Sometimes we want to perform any operation and get an exception
 
-```
+```java
 Exception in thread "AWT-EventQueue-1" java.security.AccessControlException: access denied (java.io.FilePermission characteroutput.txt write)
         at java.security.AccessControlContext.checkPermission(AccessControlContext.java:323)
         at java.security.AccessController.checkPermission(AccessController.java:546)

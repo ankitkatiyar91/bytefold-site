@@ -13,11 +13,7 @@ tags:
 - Apache Shiro
 - Authentication
 meta: {}
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/quickstart-apache-shiro-with-spring/"
 excerpt: 'Apache Shiro is an Authentication Authorization framework with support for
   cryptography and session management. You can quickly create a layer of security

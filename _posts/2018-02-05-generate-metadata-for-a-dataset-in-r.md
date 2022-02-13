@@ -17,11 +17,7 @@ meta:
   _yoast_wpseo_focuskw_text_input: easy way to generate metadata for your dataset
   _yoast_wpseo_focuskw: easy way to generate metadata for your dataset
   _yoast_wpseo_linkdex: '37'
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/generate-metadata-for-a-dataset-in-r/"
 ---
 Looking at some data in R is a crucial part of any analysis. Even before we start with anything we want to understand the data in hand. Sometimes our datasets are too big to look at each column one by one. Here comes an easy way to generate metadata&nbsp;for your dataset. Although there are various aspects and features you may want to look at, still there are few common that you can look with a simple utility package called **metadata** available on GitHub.&nbsp; You can simply install it and use it like a charm.

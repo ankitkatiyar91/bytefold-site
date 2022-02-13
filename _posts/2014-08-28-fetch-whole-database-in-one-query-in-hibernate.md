@@ -22,11 +22,7 @@ meta:
   _yoast_wpseo_focuskw_text_input: Awesome feature and tricks to manage Entities
   _yoast_wpseo_focuskw: Awesome feature and tricks to manage Entities
   _yoast_wpseo_linkdex: '25'
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/fetch-whole-database-in-one-query-in-hibernate/"
 ---
 Hibernate is most widely used ORM tool for Java (at least by the time I am writing this). It has lot's of Awesome feature and tricks to manage Entities,  

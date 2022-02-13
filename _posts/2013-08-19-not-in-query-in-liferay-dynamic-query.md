@@ -16,11 +16,7 @@ meta:
   blogger_permalink: "/2013/08/not-in-query-in-liferay-dynamic-query.html"
   blogger_internal: "/feeds/2635046121517897773/posts/default/3569513229157446587"
   _edit_last: '1'
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/not-in-query-in-liferay-dynamic-query/"
 ---
  In Liferay dynamic query you can create a query for not in condition like

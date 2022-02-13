@@ -16,11 +16,7 @@ meta:
   blogger_permalink: "/2011/12/android-plug-in-for-eclipse-ide.html"
   blogger_internal: "/feeds/2635046121517897773/posts/default/4085073310720296537"
   _thumbnail_id: '353'
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/android-plug-in-for-eclipse-ide/"
 ---
  **_For starting with android on your MyEclipse IDE &nbsp;you have to follow Small Steps:-_**

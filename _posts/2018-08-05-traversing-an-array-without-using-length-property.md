@@ -16,11 +16,7 @@ tags:
 meta:
   _edit_last: '1'
   _wp_old_slug: traversing-an-array-without-length-property
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/traversing-an-array-without-using-length-property/"
 ---
 

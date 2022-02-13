@@ -17,11 +17,7 @@ meta:
   _yoast_wpseo_content_score: '30'
   _yoast_wpseo_primary_category: '56'
   _yoast_wpseo_focuskw_text_input: constructor should not throw exception
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/why-a-constructor-should-not-throw-an-exception/"
 ---
 Just imagine if somebody asks you to do some task and when you have done 80% of it they come and ask to stop. Because you have not met preconditions for it. How will you feel about it? Something similar happens when you throw an exception from a constructor.

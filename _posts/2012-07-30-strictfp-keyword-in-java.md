@@ -16,11 +16,7 @@ meta:
   blogger_permalink: "/2012/07/strictfp-keyword-in-java.html"
   blogger_internal: "/feeds/2635046121517897773/posts/default/5778916531570401360"
   _edit_last: '1'
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/strictfp-keyword-in-java/"
 ---
  In java &nbsp;_strictfp &nbsp;_&nbsp;is used to strict all the calculations of &nbsp;to strictly follow the strict floating point calculations in all platforms.

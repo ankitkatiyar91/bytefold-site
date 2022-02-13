@@ -16,11 +16,7 @@ meta:
   blogger_permalink: "/2012/07/java-standard-edition-50.html"
   blogger_internal: "/feeds/2635046121517897773/posts/default/7613122927928252993"
   _edit_last: '1'
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/java-standard-edition-5-0/"
 ---
  JAVA 5.0 ( also known as Standard Edition 5.0 or J2SE 5 or J2SE 1.5) :-

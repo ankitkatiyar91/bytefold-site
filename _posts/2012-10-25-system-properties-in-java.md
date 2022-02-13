@@ -16,11 +16,7 @@ meta:
   blogger_permalink: "/2012/10/system-properties-in-java.html"
   blogger_internal: "/feeds/2635046121517897773/posts/default/6294914253339918777"
   _edit_last: '1'
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/system-properties-in-java/"
 ---
 There are various system properties that we can use in our programs to perform some action or access some file.  

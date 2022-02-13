@@ -17,11 +17,7 @@ meta:
   _yoast_wpseo_focuskw_text_input: upload multiple files in php
   _yoast_wpseo_focuskw: upload multiple files in php
   _yoast_wpseo_linkdex: '35'
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/upload-files-php/"
 ---
 At some point in time, we all had requirements to upload some file on a website whether it's for gallery image or CV for a career page.

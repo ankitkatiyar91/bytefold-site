@@ -18,11 +18,7 @@ meta:
   _yoast_wpseo_focuskw: Java version history
   _yoast_wpseo_linkdex: '58'
   _yoast_wpseo_post_image_cache: a:0:{}
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/java-version-features-brief-history/"
 ---
 A popular interview question for any Java Developer is _“what was new in Java version X?”_&nbsp;and if you mention that you have worked with 2 different versions of Java then it's very likely to have a followup question&nbsp;_"what was added in the later one?"_. So here are the important new features added in each major Java release with their code names(At least I was asked for code name once).

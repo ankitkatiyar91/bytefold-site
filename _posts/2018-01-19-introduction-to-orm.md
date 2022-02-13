@@ -17,11 +17,7 @@ meta:
   _yoast_wpseo_linkdex: '67'
   _yoast_wpseo_content_score: '30'
   _yoast_wpseo_primary_category: ''
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/introduction-to-orm/"
 ---
 Hibernate, If you are a Java developer I am sure you heard this name already. Yes! it is one of the ORMs available in the market.

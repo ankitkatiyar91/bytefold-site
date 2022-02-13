@@ -14,11 +14,7 @@ tags:
 - kubernates
 meta:
   _edit_last: '1'
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/load-balancing-a-grpc-service-on-k8s/"
 ---
 Load balancing a GRPC service on a Kubernetes environment could be a big challenge if you miss out on the fact that GRPC works on HTTP2 and HTTP2 does the magic of multiplexing and reuses the connection for multiple requests. While trying to scale a GRPC service found some interesting insights about how GRPC works with ClusterIP.
@@ -31,7 +27,7 @@ Load balancing a GRPC service on a Kubernetes environment could be a big challen
 
 We created a GRPC service and deployed it on k8s using a ClusterIP service which was exposed using an Nginx server. We
 did some load tests and figured out its vertical scale limits. so we decided to scale the number of pods on our service
-to achieve better results. As the[k8s documentation](https://kubernetes.io/docs/concepts/services-networking/service/)
+to achieve better results. As the [k8s documentation](https://kubernetes.io/docs/concepts/services-networking/service/)
 mentions
 
 

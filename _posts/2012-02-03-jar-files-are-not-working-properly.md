@@ -18,11 +18,7 @@ meta:
   _yoast_wpseo_content_score: '60'
   _edit_last: '1'
   _yoast_wpseo_primary_category: '56'
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/jar-files-are-not-working-properly/"
 ---
 &nbsp;

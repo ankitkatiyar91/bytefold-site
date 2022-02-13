@@ -18,11 +18,7 @@ meta:
   _edit_last: '1'
   _yoast_wpseo_content_score: '30'
   _yoast_wpseo_primary_category: '56'
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/external-garbage-collection-in-java/"
 ---
 In java garbage collection is internally implemented. For it, JVM(Java Virtual Machine) uses a Class  

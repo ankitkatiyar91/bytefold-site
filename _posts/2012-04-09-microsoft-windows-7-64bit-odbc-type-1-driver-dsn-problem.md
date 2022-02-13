@@ -18,11 +18,7 @@ meta:
   _edit_last: '1'
   _yoast_wpseo_content_score: '60'
   _yoast_wpseo_primary_category: '56'
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/microsoft-windows-7-64bit-odbc-type-1-driver-dsn-problem/"
 ---
 In windows7 if you are using type 1 driver for your JDBC then you&nbsp;face a problem of creating DSN from control panel administrative tool then try this location file  

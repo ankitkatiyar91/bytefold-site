@@ -13,11 +13,7 @@ tags:
 - Dynamic port forward in java
 - Java Tunnel
 meta: {}
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/java-ssh-tunnel-with-dynamic-port-forwarding/"
 excerpt: Create a putty like dynamic port forward in Java. Unable to access URL on
   you network? want to bypass them over a bastion server? A running demo using JSCH

@@ -18,11 +18,7 @@ meta:
   _edit_last: '1'
   _yoast_wpseo_primary_category: '56'
   _yoast_wpseo_content_score: '60'
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/date-converter-for-different-timezone-and-formats/"
 ---
 Convert Date from one timezone to another without hassle. Covert a different format to different format.

@@ -19,11 +19,7 @@ meta:
   _yoast_wpseo_content_score: '30'
   _yoast_wpseo_primary_category: '61'
   _edit_last: '1'
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/microsoft-azure-machine-learning-studio/"
 ---
  **Machine Learning** has been a buzz word in every field. You can clearly see this on Google trend of search.

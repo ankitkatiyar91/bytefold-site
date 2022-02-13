@@ -14,11 +14,7 @@ tags:
 - Spring Security Logging
 meta:
   _edit_last: '1'
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/enable-disable-profile-specific-spring-security-debug-flag/"
 ---
 Spring security comes with a handy feature to enable <em>debug</em>flag to see a nice debug log as shown below to see what is happening with your application.

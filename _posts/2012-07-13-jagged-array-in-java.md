@@ -21,11 +21,7 @@ meta:
   _yoast_wpseo_focuskw_text_input: Jagged Arrays
   _yoast_wpseo_focuskw: Jagged Arrays
   _yoast_wpseo_linkdex: '32'
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/jagged-array-in-java/"
 ---
 Java support Jagged Arrays. You can have a different&nbsp;length for each column do not need to have same no of the column for all rows.

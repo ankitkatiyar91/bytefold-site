@@ -15,11 +15,7 @@ meta:
   blogger_author: Ankit Katiyar
   blogger_permalink: "/2012/04/speedup-your-computer-by-cleaning-your.html"
   blogger_internal: "/feeds/2635046121517897773/posts/default/4461329397234451680"
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/speedup-your-computer-by-cleaning-your-ram-using-notepad/"
 ---
 <div dir="ltr" style="text-align: left;">Does your computer boot slowly or shuts down slowly? Then this tutorial is for you.. One of the major problem of computer coming up slow is<br />1. UNUSED JUNK IN RAM.<br />2. TOO MUCH PROGRAM ON THE COMPUTER DESKTOP( ICONS,)<br />4. VIRUSES ETC</p>

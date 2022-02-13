@@ -15,11 +15,7 @@ meta:
   blogger_author: Ankit Katiyar
   blogger_permalink: "/2011/08/use-wamp-and-mysql-in-win-7.html"
   blogger_internal: "/feeds/2635046121517897773/posts/default/8288147280827228923"
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/use-wamp-and-mysql-in-win-7-simultaneously/"
 ---
 In win7 there is a problem in using wamp and MySql at the same time due to using the same port no. 3306 by the both &nbsp;wamp and MySql.&nbsp;So for resolving this problem change the port no. of MySql during installation (ex. 3307). Now you can use both at same time. If u want to use Mysql as DB in php then change the port no. in file "config.inc.php" .  

@@ -21,11 +21,7 @@ meta:
   _yoast_wpseo_primary_category: '56'
   _yoast_wpseo_focuskw: java.lang.NullPointerException in Java
   _yoast_wpseo_linkdex: '28'
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/java-lang-nullpointerexception/"
 ---
  **_java.lang.NullPointerException_** in Java

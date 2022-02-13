@@ -12,11 +12,7 @@ categories:
 tags:
 - Serialization
 meta: {}
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/serializing-an-object-with-static-property/"
 ---
 

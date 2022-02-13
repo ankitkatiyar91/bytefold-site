@@ -12,11 +12,7 @@ categories:
 tags:
 - JVM Shutdown Hook
 meta: {}
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/jvm-shutdown-hook/"
 excerpt: JVM shutdown hook are like finalize methods for your JVM. It does the same
   job for JVM that finalize method does for the objects of a class.

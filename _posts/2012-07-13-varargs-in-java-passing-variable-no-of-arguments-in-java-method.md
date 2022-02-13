@@ -19,11 +19,7 @@ meta:
   _yoast_wpseo_content_score: '60'
   _yoast_wpseo_primary_category: '56'
   _wp_old_slug: varargs-in-java-passing-variable-no-of-arguments-in-java-program
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/varargs-in-java-passing-variable-no-of-arguments-in-java-method/"
 ---
 After J2SE 5.0 java supports passing of variable arguments in a method that u don't need to fix the no of arguments at the time of defining the method.  

@@ -15,11 +15,7 @@ tags:
 - Updating to new framework
 meta:
   _wp_old_slug: why-not-jump-on-to-new-technology
-author:
-  email: ankit@bytefold.com
-  display_name: Ankit Katiyar
-  first_name: Ankit
-  last_name: Katiyar
+author: ankit_katiyar
 permalink: "/why-not-to-fall-for-a-new-technology/"
 ---
 
