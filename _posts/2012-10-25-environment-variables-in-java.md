@@ -35,7 +35,7 @@ In a java Application System.getenv(); is used to find out the system environmen
 
 ### **Example:-**
 
-```
+```java
 import java.util.Map;
 ```
 

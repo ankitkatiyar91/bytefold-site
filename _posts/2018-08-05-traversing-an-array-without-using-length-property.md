@@ -24,15 +24,15 @@ author:
 permalink: "/traversing-an-array-without-using-length-property/"
 ---
 
-We often face an interview question when it is asked to search or traverse an array without knowing/using the length property. 
-In Java, if you try to access the element that is outside the length of the array.
+We often face an interview question when it is asked to search or traverse an array without knowing/using the length property. In Java, if you try to access the element that is outside the length of the array.
+
 it will give you an exception as [**java.lang.ArrayIndexOutOfBoundsException**](https://docs.oracle.com/javase/7/docs/api/java/lang/ArrayIndexOutOfBoundsException.html).
 
 
 Here I have one implementation&nbsp;of a binary search where I will not use the length property of the array.
 
 ### Example
-```
+```java
 import static java.lang.Math.pow;
 
 public class BinarySearchWithoutLength {

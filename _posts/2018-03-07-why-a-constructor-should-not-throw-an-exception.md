@@ -32,7 +32,7 @@ A constructor is a special method that is responsible for initialization of the 
 
 &nbsp;
 
-```
+```java
 class Car {
 
 	private int cylinder;
@@ -61,7 +61,7 @@ After all, that’s why we have inheritance so that you can reuse the functional
 
 This whole concept of calling one constructor from another is called constructor chaining.
 
-```
+```java
 class Car {
 
 	private int cylinder;

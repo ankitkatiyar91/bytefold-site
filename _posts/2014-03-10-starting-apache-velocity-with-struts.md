@@ -70,13 +70,13 @@ Note: you can find all these jars in lib folder of downloaded zip of Velocity (E
 
 ```xml
 <servlet>
-    <servlet-name>velocity</servlet-name>
-    <servlet-class>org.apache.velocity.tools.view.VelocityViewServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-       <servlet-name>velocity</servlet-name>
-       <url-pattern>*.vm</url-pattern>
-  </servlet-mapping>
+    <servlet-name>velocity</servlet-name>
+    <servlet-class>org.apache.velocity.tools.view.VelocityViewServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+       <servlet-name>velocity</servlet-name>
+       <url-pattern>*.vm</url-pattern>
+  </servlet-mapping>
 ```
 
 &nbsp;
@@ -87,12 +87,12 @@ Note: you can find all these jars in lib folder of downloaded zip of Velocity (E
 
 ```xml
 <filter>
-  <filter-name>struts2</filter-name>
-  <filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
-  </filter>
-  <filter-mapping>
-  <filter-name>struts2</filter-name>
-  <url-pattern>*</url-pattern> 
+  <filter-name>struts2</filter-name>
+  <filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  <filter-name>struts2</filter-name>
+  <url-pattern>*</url-pattern> 
 </filter-mapping>
 ```
 
@@ -109,40 +109,40 @@ import com.opensymphony.xwork2.ActionSupport;
 
 public class UserLogin extends ActionSupport {
 
-       private String name;
-       private String email;
-       private int random;
-      
-       public String getName() {
-              return name;
-       }
+       private String name;
+       private String email;
+       private int random;
+      
+       public String getName() {
+              return name;
+       }
 
-       public void setName(String name) {
-              this.name = name;
-       }
+       public void setName(String name) {
+              this.name = name;
+       }
 
-       public String getEmail() {
-              return email;
-       }
+       public String getEmail() {
+              return email;
+       }
 
-       public void setEmail(String email) {
-              this.email = email;
-       }
+       public void setEmail(String email) {
+              this.email = email;
+       }
 
-       public int getRandom() {
-              return random;
-       }
+       public int getRandom() {
+              return random;
+       }
 
-       public void setRandom(int random) {
-              this.random = random;
-       }
+       public void setRandom(int random) {
+              this.random = random;
+       }
 
-       public  String login() {
-             
-              random=(int)( Math.random()*10);
-              System.out.println("Name->"+name+" random->"+random);
-              return SUCCESS;
-       }
+       public  String login() {
+             
+              random=(int)( Math.random()*10);
+              System.out.println("Name->"+name+" random->"+random);
+              return SUCCESS;
+       }
 }
 ```
 
@@ -161,9 +161,9 @@ public class UserLogin extends ActionSupport {
 <!DOCTYPEstruts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
 <struts>
 <packagename="default" extends="struts-default">
-       <action name="login"class="com.ankit.web.UserLogin" method="login" >
-              <result>index.vm</result>
-       </action>
+       <action name="login"class="com.ankit.web.UserLogin" method="login" >
+              <result>index.vm</result>
+       </action>
 </package>
 </struts>
 ```
@@ -176,9 +176,9 @@ public class UserLogin extends ActionSupport {
 
 ```xml
 <%@page language="java"contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-    <%@taglib uri="/struts-tags"  prefix="s"%>
-    <%@taglib uri="http://velocity.apache.org/velocity-view"  prefix="velocity"%>
+    pageEncoding="ISO-8859-1"%>
+    <%@taglib uri="/struts-tags"  prefix="s"%>
+    <%@taglib uri="http://velocity.apache.org/velocity-view"  prefix="velocity"%>
 <!DOCTYPEhtml PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -187,8 +187,8 @@ public class UserLogin extends ActionSupport {
 </head>
 <body>
 <s:formaction="login" >
-<s:textfield  name="name"label="Name" labelSeparator=":-"></s:textfield>
-<s:textfield  name="Email"label="Email" labelSeparator=":-"></s:textfield>
+<s:textfield  name="name"label="Name" labelSeparator=":-"></s:textfield>
+<s:textfield  name="Email"label="Email" labelSeparator=":-"></s:textfield>
 <s:submit></s:submit>
 </s:form>
 </body>
@@ -216,7 +216,7 @@ style="color:green;"
 #end >$i</b>&nbsp;
 #set($i=$i+1)
 #end
-<br>Check if user is  Admin
+<br>Check if user is  Admin
 #if($name=="Admin")
 <b>User is Admin</b>
 #end

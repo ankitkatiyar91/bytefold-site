@@ -14,8 +14,8 @@ meta:
   _edit_last: '1'
   _yoast_wpseo_content_score: '60'
   _yoast_wpseo_primary_category: '59'
-  _yoast_wpseo_focuskw_text_input: easy way to generate metadata for your dataset
-  _yoast_wpseo_focuskw: easy way to generate metadata for your dataset
+  _yoast_wpseo_focuskw_text_input: easy way to generate metadata for your dataset
+  _yoast_wpseo_focuskw: easy way to generate metadata for your dataset
   _yoast_wpseo_linkdex: '37'
 author:
   email: ankit@bytefold.com

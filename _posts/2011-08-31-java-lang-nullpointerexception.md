@@ -38,19 +38,19 @@ In Java "java.lang.NullPointerException" exception is the one that every beginne
 
 **Example:-**
 
-```
+```java
 Object a; // declare an object
 
 a.hashcode(); // trying to call a method on the object. 
 //"mind it! I have not initialized it yet"
 
 // above line will definitely give you an exception, 
-//obviously NullPointerException as reference a is still null.
+//obviously NullPointerException as reference a is still null.
 ```
 
 **Solution:-&nbsp;**
 
-```
+```java
 Object a; // declare an object
 
 a=new Object(); //initialized, Yes! you can do it on above line as will

@@ -43,7 +43,7 @@ once this form is submitted it will set the value of&nbsp;_ **submit** _ as we h
 
 &nbsp;
 
-```
+```php
 <?php
 	$uploadedImages=false;
 // check if form was submitted

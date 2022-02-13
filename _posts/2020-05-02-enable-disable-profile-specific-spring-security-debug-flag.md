@@ -34,7 +34,7 @@ You can control this feature from your bean configuration code
 
 
 
-```
+```java
 @Configuration
 @EnableWebSecurity(debug = true)
 public class SecurityConfig extends WebSecurityConfigurerAdapter

@@ -34,7 +34,7 @@ Java support Jagged Arrays. You can have a different&nbsp;length for each column
 
 **Example:-**
 
-```
+```java
 public class JaggedArray {
 public static void main(String ar[])
 {
@@ -64,7 +64,7 @@ System.out.println("");
 
 ```
 length-2
-1 , 12 , 
+1 , 12 , 
 10 , 3 , 12 , 13 ,
 ```
 

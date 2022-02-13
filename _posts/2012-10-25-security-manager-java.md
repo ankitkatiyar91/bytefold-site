@@ -40,7 +40,7 @@ Exception in thread "AWT-EventQueue-1" java.security.AccessControlException: acc
 
 To Prevent this exception we can use SecurityManager class to check for the permission before performing an operation.
 
-The security manager is an object of the type[` SecurityManager`](http://docs.oracle.com/javase/7/docs/api/java/lang/SecurityManager.html) to obtain a reference to this object, invoke.`System.getSecurityManager`
+The security manager is an object of the type[` SecurityManager`](http://docs.oracle.com/javase/7/docs/api/java/lang/SecurityManager.html) to obtain a reference to this object, invoke.`System.getSecurityManager`
 
 ```
 SecurityManager appsm = System.getSecurityManager();

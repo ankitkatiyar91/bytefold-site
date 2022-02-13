@@ -33,7 +33,7 @@ The compiler automatically converts the arguments in the form of an array so u c
 
 **Example:-**
 
-```
+```java
 public class Varargs {
 
 	public static void main(String[] args) {
@@ -45,7 +45,7 @@ public class Varargs {
 
 	public void show(String... arg)
 	{
-		for(int i=0;i<arg.length;i++) 
+		for(int i=0;i<arg.length;i++)
 		{
 		System.out.println(arg[i]);
 		}
@@ -67,19 +67,19 @@ You can use any data type for variable arguments.
 
 _&nbsp;_
 
-```
+```java
 public class Varargs {
- 
+
 	public static void main(String[] args) {
 
 		Varargs var=new Varargs();
 		var.show(1,2,3);
 		var.show(9,7);
-	 
+	 
 	}
 	public void show(int... arg)
 	{
-		for(int i=0;i<arg.length;i++) 
+		for(int i=0;i<arg.length;i++)
 		{
 		System.out.println(arg[i]);
 		}

@@ -35,7 +35,7 @@ _java -Xms_ .
 
 If u &nbsp; want to implement garbage collection in your program u can use the method of _ **Runtime** _ class there is a native method defined in java that is used to call a garbage collector.
 
-```
+```java
 Runtime r = Runtime.getRuntime();
 r.gc();
 
