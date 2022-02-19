@@ -33,7 +33,7 @@ kramdown:
     default_lang: java
 #    css_class: 'syntax'
     formatter: Rouge::Formatters::HTML.new
-theme: monophase
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
