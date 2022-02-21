@@ -24,14 +24,6 @@ Technology is changing at an exponential rate. Every day we welcome a new techno
 
 
 
-<!-- wp:heading {"level":3} -->
-
-### 
-
-
-
-<!-- wp:heading {"level":3} -->
-
 ### It’s not&nbsp;mature
 
 
@@ -86,8 +78,8 @@ Every business uses technology. You cannot imagine a business without technology
 
 <!-- wp:quote -->
 
-> **_Technology is core of your business._** _(_Examples: _Software Development, Innovation and R&D companies)_  
-> **_Business using technology to support/improve business._** _(_Examples: _Manufacturing, Business Consulting, Real estate etc.)_
+> **_Technology is core of your business._** _(Examples: Software Development, Innovation and R&D companies)_  
+> **_Business using technology to support/improve business._** _(Examples: Manufacturing, Business Consulting, Real estate etc.)_
 
 <!-- /wp:quote -->
 
@@ -123,7 +115,7 @@ You need people to create and maintain a application. We all know rare techs fac
 
 
 
-_ **Learning from everyone else is great, don’t follow them!** _
+_**Learning from everyone else is great, don’t follow them!**_
 
 
 
