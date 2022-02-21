@@ -1,2 +1,5 @@
+---
+layout: none
+---
 User-agent: *
 Disallow: /
