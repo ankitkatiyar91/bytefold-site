@@ -3,10 +3,6 @@ layout: page
 title: Water intake tracker
 
 ---
-Water Intake Tracker
-
-Water Intake Tracker
-====================
 
 Water is something we all need, our body does remind us of having it time to time. Still, a lot of us don’t take a decent amount of water to keep us healthy. This app helps you keep track of your water intake and you improve on it.
 
