@@ -1,3 +1,6 @@
 .highlight pre {
-  white-space: pre-wrap;
+    white-space: pre-wrap;
+}
+img[src*='#45'] {
+    width: 45%;
 }
