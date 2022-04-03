@@ -1,12 +1,15 @@
 ---
 layout: post
 title: Sharing GPU in Kubernetes
+date: 2022-04-03 00:56:25.000000000 +05:30
 type: post
 parent_id: '0'
+published: true
 categories:
 - GPU Sharing
 tags: GPU NVIDIA-GPU GPU-Sharing
-author: ankit_katiyar
+author: ankit_katiyar 
+permalink: "/sharing-gpu-in-kubernetes/"
 ---
 
 GPU's popularity has been increasing for last decade with increasing usage in ML and other AI applications. We have seen a lot of application using GPUs as key computation component for processing. We struck with one such use-case of **ASR**(Automated Speech Recognition) and **TTS**(Text to Speech).
