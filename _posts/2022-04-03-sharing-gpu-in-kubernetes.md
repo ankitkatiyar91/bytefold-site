@@ -50,11 +50,9 @@ We always want to get most value out of any resource that we use. Our benchmarki
 ![GPU Memory Allocation]({{ site.baseurl }}/assets/images/gpu-sharing/gpu-memory-allocation.png#45)
 ![GPU Memory Utilization]({{ site.baseurl }}/assets/images/gpu-sharing/gpu-utilization.png#45)
 
-\*Peeks in the graphs represent load. We did these runs to benchmark our one ASR model service.
+\*Peeks in the graphs represent load. We did these runs to benchmark our ASR model service. Here, one ASR model was running on an Nvidia T4 GPU which has 16 GB memory. With our increase in load utilization increases but saturates at a level and did not increase with increase in load (load means increase in number of concurrent request).
 
-These load runs made it clear that deploying one instance of the service (one model running in a service) per GPU wasn't the best use of it.
-
-
+These load runs made it clear that deploying one instance of the service (one model running in a service) per GPU wasn't the best use of it. We can load more models on to one GPU and get better results. We also have to mindful of that fact that current generations of GPUs are not designed for parallel workloads. So benchmarking plays important role in understanding the impact.
 
 
 # GPU with Kubernetes
