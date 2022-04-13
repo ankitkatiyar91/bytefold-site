@@ -184,9 +184,10 @@ CUDA_VISIBLE_DEVICES: "1,2"
 GPU sharing is still an experimental feature in kubernetes. There are efforts going on to make it available. Till then, we have to live with workarounds like these to make it work. It requires a bit of planning upfront to know which workload will go where and what GPU instance will be used by them.
 
 
-References:
+**References:**
 
 [CUDA Documentation](https://developer.nvidia.com/cuda-zone)
+
 [AWS Virtual GPU Plugin](https://github.com/awslabs/aws-virtual-gpu-device-plugin)
+
 [NVIDIA  Multi-instance GPU](https://www.nvidia.com/en-in/technologies/multi-instance-gpu/)
-[Vakyansh Documentation](https://open-speech-ekstep.github.io/asr_streaming_service/)
