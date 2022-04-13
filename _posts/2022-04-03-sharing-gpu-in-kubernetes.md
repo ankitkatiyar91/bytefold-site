@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sharing GPU in Kubernetes
+title: Our journey of sharing GPU in Kubernetes
 date: 2022-04-03 00:56:25.000000000 +05:30
 type: post
 parent_id: '0'
@@ -16,7 +16,7 @@ GPU's popularity has been increasing for last decade with increasing usage in ML
 
 # Context
 
-We built an amazing service to provide ASR and TTS for indic languages. We decided to use GPUs to have better performance. We were using kubernetes to make things simple and scalable at various levels. Everything was smooth until we got to know that we have to share GPUs and kubernetes does not have native support for GPUs. K8s official documentation says
+Team built an amazing service to provide ASR and TTS for indic languages. GPUs were considered to have better performance. Kubernetes chosen to keep things simple and scalable at various levels. Everything was smooth until we got to know that we have to share GPUs and kubernetes does not have native support for GPUs. K8s official documentation says
 
 
 >Kubernetes includes experimental support for managing AMD and NVIDIA GPUs (graphical processing units) across several nodes.
@@ -38,7 +38,14 @@ More on it [CUDA documentation](https://developer.nvidia.com/cuda-zone).
 
 # Why Share GPUs
 
-GPUs are costly resources. Also, we always want to get most value out of any resource that we use. We have seen in our benchmarking tests that there was scope to do more on one single GPU. 
+
+* GPUs are expensive.
+* Better utilization of GPU cycles and memory
+  * One model instance may not consume it all.
+  * Availability of best fit GPUs for your workload.
+
+
+We always want to get most value out of any resource that we use. Our benchmarking showed the scope to do more on one single GPU. 
 
 ![GPU Memory Allocation]({{ site.baseurl }}/assets/images/gpu-sharing/gpu-memory-allocation.png#45)
 ![GPU Memory Utilization]({{ site.baseurl }}/assets/images/gpu-sharing/gpu-utilization.png#45)
@@ -47,12 +54,6 @@ GPUs are costly resources. Also, we always want to get most value out of any res
 
 These load runs made it clear that deploying one instance of the service (one model running in a service) per GPU wasn't the best use of it.
 
-**Summary**
-
-* GPUs are expensive.
-* Better utilization of GPU cycles and memory
-    * One model instance may not consume it all.
-    * Availability of best fit GPUs for your workload.
 
 
 
@@ -183,3 +184,11 @@ CUDA_VISIBLE_DEVICES: "1,2"
 # Summary
 
 GPU sharing is still an experimental feature in kubernetes. There are efforts going on to make it available. Till then, we have to live with workarounds like these to make it work. It requires a bit of planning upfront to know which workload will go where and what GPU instance will be used by them.
+
+
+References:
+
+[CUDA Documentation](https://developer.nvidia.com/cuda-zone)
+[AWS Virtual GPU Plugin](https://github.com/awslabs/aws-virtual-gpu-device-plugin)
+[NVIDIA  Multi-instance GPU](https://www.nvidia.com/en-in/technologies/multi-instance-gpu/)
+[Vakyansh Documentation](https://open-speech-ekstep.github.io/asr_streaming_service/)
