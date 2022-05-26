@@ -21,7 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ankitkatiyar91.github.io/bytefold-site" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
-
+google_analytics: G-P19MG8RZPK
 # Build settings
 markdown: kramdown
 highlighter: rouge
