@@ -13,7 +13,6 @@ tags: []
 meta:
   blogger_blog: bytefold.com
   blogger_author: Ankit Katiyar
-  blogger_permalink: "/2011/08/use-wamp-and-mysql-in-win-7.html"
   blogger_internal: "/feeds/2635046121517897773/posts/default/8288147280827228923"
 author: ankit_katiyar
 permalink: "/use-wamp-and-mysql-in-win-7-simultaneously/"
