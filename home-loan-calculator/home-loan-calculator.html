@@ -68,8 +68,8 @@ permalink: /home-loan-calculator/
                 <tbody id="oneTimeList"></tbody>
             </table>
             <div class="d-flex gap-2">
-                <input type="number" class="form-control" id="oneTimeAmount" placeholder="Amount (₹)">
                 <input type="date" class="form-control" id="oneTimeDate">
+                <input type="number" class="form-control" id="oneTimeAmount" placeholder="Amount (₹)">
                 <button type="button" class="btn btn-secondary" onclick="addOneTime()">Add</button>
             </div>
         </div>
@@ -87,12 +87,12 @@ permalink: /home-loan-calculator/
                 <tbody id="recurringList"></tbody>
             </table>
             <div class="d-flex gap-2">
-                <input type="number" class="form-control" id="recurringAmount" placeholder="Amount (₹)">
                 <select class="form-select" id="recurringFrequency">
                     <option value="12">Yearly</option>
                     <option value="3">Quarterly</option>
                     <option value="1">Monthly</option>
                 </select>
+                <input type="number" class="form-control" id="recurringAmount" placeholder="Amount (₹)">
                 <button type="button" class="btn btn-secondary" onclick="addRecurring()">Add</button>
             </div>
         </div>
